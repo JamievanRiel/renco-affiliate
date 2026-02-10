@@ -147,6 +147,26 @@ const CATEGORIES = [
   "Topdeals",
 ];
 
+function App() {
+  return (
+    <div className="min-h-screen bg-neutral-50">
+      <header className="p-6 bg-white shadow-sm">
+        <h1 className="text-2xl font-bold">RenCo Affiliate Overzicht</h1>
+      </header>
+      
+      <main className="container mx-auto p-4">
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article className="border p-4 rounded-lg bg-white">
+            <h2 className="text-xl font-semibold">Product Naam</h2>
+            <p>Beschrijving voor SEO-waarde...</p>
+            <a href="#" className="text-blue-600">Bekijk product</a>
+          </article>
+        </section>
+      </main>
+    </div>
+  );
+}
+
 function StarRating({ value = 0, outOf = 5 }) {
   const full = Math.round(value);
   return (
