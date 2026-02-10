@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./RenCo/src/**/*.{js,jsx,ts,tsx}", 
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
