@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Gebruik een relatief pad, dit werkt vaak zowel lokaal als op GitHub
+  base: '/renco-affiliate/', // Exacte naam van je repo met slashes
 });
