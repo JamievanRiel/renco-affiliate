@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/renco-affiliate/', // Exacte naam van je repo met slashes
+  base: '/renco-affiliate/', // Zorg dat dit EXACT je repository naam is
 });
